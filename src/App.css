@@ -1,0 +1,10 @@
+.about_swiper>.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    height: 8px;
+    width: 22px;
+    border-radius: 5px;
+    background-color: #12324d;
+    transition: all ease-in-out 0.6s;
+
+    /* Triangle color */
+}
