@@ -24,7 +24,7 @@ const nav: React.FC = () => {
                 <div className='h-15 w-2'></div>
                 <div className='flex items-center justify-center h-15 w-full rounded-r-[10px] text-white bg-green-700 text-lg font-semibold'><span className='text-[20px] mr-[5px] '><HiOutlineShoppingCart /></span>My Cart</div>
             </div>
-        </div>
+        </div> 
     )
 };
 
