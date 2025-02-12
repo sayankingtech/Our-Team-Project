@@ -1,5 +1,6 @@
 import Navbar from "./components/nav"
 import Banner from "./components/banner"
+import OfferBanner from "./components/offerBanner"
 
 const App = () => {
 
@@ -7,6 +8,7 @@ const App = () => {
     <>
       <Navbar></Navbar>
       <Banner></Banner>
+      <OfferBanner></OfferBanner>
     </>
   )
 }
