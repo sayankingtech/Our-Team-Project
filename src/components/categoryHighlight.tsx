@@ -40,53 +40,156 @@ const categoryHighlight: React.FC = () => {
             >
 
                 <SwiperSlide className='p-3'>
-                    <div className='bg-white'>
+                    <div className='bg-white rounded-lg overflow-hidden h-[300px] w-[175px]'>
                         <div className='items-center'>
                             <img src={image1} className='' alt="" />
                         </div>
-                        <div>
-                            
+                        <div className='p-2'>
+                            <div className='text-sm font-medium mb-2 h-[40px]'>Amul Taaze Toned Fresh Milk</div>
+                            <div className='text-stone-600 text-sm mb-2'>500 ml</div>
+                            <div className='flex place-content-between'>
+                                <div className='font-medium'>₹28</div>
+                                <div className='border border-green-800 rounded-md flex'>
+                                    <button className='justify-center items-center px-[18px] py-[4px] text-sm text-green-800'>ADD</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div>
-                        <img src={image2} alt="" />
+                <SwiperSlide className='p-3'>
+                    <div className='bg-white rounded-lg overflow-hidden h-[300px] w-[175px]'>
+                        <div className='items-center'>
+                            <img src={image2} className='' alt="" />
+                        </div>
+                        <div className='p-2'>
+                            <div className='text-sm font-medium mb-2 h-[40px]'>Kwality Special White Bread</div>
+                            <div className='text-stone-600 text-sm mb-2'>400 gm</div>
+                            <div className='flex place-content-between'>
+                                <div className='font-medium'>₹40</div>
+                                <div className='border border-green-800 rounded-md flex'>
+                                    <button className='justify-center items-center px-[18px] py-[4px] text-sm text-green-800'>ADD</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div>
-                        <img src={image3} alt="" />
+                <SwiperSlide className='p-3'>
+                    <div className='bg-white rounded-lg overflow-hidden h-[300px] w-[175px]'>
+                        <div className='items-center'>
+                            <img src={image3} className='' alt="" />
+                        </div>
+                        <div className='p-2'>
+                            <div className='text-sm font-medium mb-2 h-[40px]'>Amul Salted Butter</div>
+                            <div className='text-stone-600 text-sm mb-2'>100 gm</div>
+                            <div className='flex place-content-between'>
+                                <div className='font-medium'>₹60</div>
+                                <div className='border border-green-800 rounded-md flex'>
+                                    <button className='justify-center items-center px-[18px] py-[4px] text-sm text-green-800'>ADD</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div>
-                        <img src={image4} alt="" />
+                <SwiperSlide className='p-3'>
+                    <div className='bg-white rounded-lg overflow-hidden h-[300px] w-[175px]'>
+                        <div className='items-center'>
+                            <img src={image4} className='' alt="" />
+                        </div>
+                        <div className='p-2'>
+                            <div className='text-sm font-medium mb-2 h-[40px]'>Amul Musti Curd</div>
+                            <div className='text-stone-600 text-sm mb-2'>200 gm</div>
+                            <div className='flex place-content-between'>
+                                <div className='font-medium'>₹23</div>
+                                <div className='border border-green-800 rounded-md flex'>
+                                    <button className='justify-center items-center px-[18px] py-[4px] text-sm text-green-800'>ADD</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div>
-                        <img src={image5} alt="" />
+                <SwiperSlide className='p-3'>
+                    <div className='bg-white rounded-lg overflow-hidden h-[300px] w-[175px]'>
+                        <div className='items-center'>
+                            <img src={image5} className='' alt="" />
+                        </div>
+                        <div className='p-2'>
+                            <div className='text-sm font-medium mb-2 h-[40px]'>Kwality Brown Bread</div>
+                            <div className='text-stone-600 text-sm mb-2'>400 gm</div>
+                            <div className='flex place-content-between'>
+                                <div className='font-medium'>₹50</div>
+                                <div className='border border-green-800 rounded-md flex'>
+                                    <button className='justify-center items-center px-[18px] py-[4px] text-sm text-green-800'>ADD</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div>
-                        <img src={image6} alt="" />
+                <SwiperSlide className='p-3'>
+                    <div className='bg-white rounded-lg overflow-hidden h-[300px] w-[175px]'>
+                        <div className='items-center'>
+                            <img src={image6} className='' alt="" />
+                        </div>
+                        <div className='p-2'>
+                            <div className='text-sm font-medium mb-2 h-[40px]'>Gokul Full Cream Fresh Milk</div>
+                            <div className='text-stone-600 text-sm mb-2'>500 ml</div>
+                            <div className='flex place-content-between'>
+                                <div className='font-medium'>₹36</div>
+                                <div className='border border-green-800 rounded-md flex'>
+                                    <button className='justify-center items-center px-[18px] py-[4px] text-sm text-green-800'>ADD</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div>
-                        <img src={image7} alt="" />
+                <SwiperSlide className='p-3'>
+                    <div className='bg-white rounded-lg overflow-hidden h-[300px] w-[175px]'>
+                        <div className='items-center'>
+                            <img src={image7} className='' alt="" />
+                        </div>
+                        <div className='p-2'>
+                            <div className='text-sm font-medium mb-2 h-[40px]'>Yojona Poultry Power White Eggs</div>
+                            <div className='text-stone-600 text-sm mb-2'>12 Pieces</div>
+                            <div className='flex place-content-between'>
+                                <div className='font-medium'>₹106</div>
+                                <div className='border border-green-800 rounded-md flex'>
+                                    <button className='justify-center items-center px-[18px] py-[4px] text-sm text-green-800'>ADD</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div>
-                        <img src={image1} alt="" />
+                <SwiperSlide className='p-3'>
+                    <div className='bg-white rounded-lg overflow-hidden h-[300px] w-[175px]'>
+                        <div className='items-center'>
+                            <img src={image1} className='' alt="" />
+                        </div>
+                        <div className='p-2'>
+                            <div className='text-sm font-medium mb-2 h-[40px]'>Amul Taaze Toned Fresh Milk</div>
+                            <div className='text-stone-600 text-sm mb-2'>500 ml</div>
+                            <div className='flex place-content-between'>
+                                <div className='font-medium'>₹28</div>
+                                <div className='border border-green-800 rounded-md flex'>
+                                    <button className='justify-center items-center px-[18px] py-[4px] text-sm text-green-800'>ADD</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div>
-                        <img src={image2} alt="" />
+                <SwiperSlide className='p-3'>
+                    <div className='bg-white rounded-lg overflow-hidden h-[300px] w-[175px]'>
+                        <div className='items-center'>
+                            <img src={image2} className='' alt="" />
+                        </div>
+                        <div className='p-2'>
+                            <div className='text-sm font-medium mb-2 h-[40px]'>Kwality Special White Bread</div>
+                            <div className='text-stone-600 text-sm mb-2'>400 gm</div>
+                            <div className='flex place-content-between'>
+                                <div className='font-medium'>₹40</div>
+                                <div className='border border-green-800 rounded-md flex'>
+                                    <button className='justify-center items-center px-[18px] py-[4px] text-sm text-green-800'>ADD</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </SwiperSlide>
 
