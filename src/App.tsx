@@ -10,10 +10,10 @@ const App = () => {
   return (
     <>
       <Navbar></Navbar>
-      {/* <Banner></Banner> */}
-      {/* <OfferBanner></OfferBanner> */}
-      {/* <Category></Category> */}
-      {/* <CategoryHighlight></CategoryHighlight> */}
+      <Banner></Banner>
+      <OfferBanner></OfferBanner>
+      <Category></Category>
+      <CategoryHighlight></CategoryHighlight>
       <Footer></Footer>
     </>
   )
