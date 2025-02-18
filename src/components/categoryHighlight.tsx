@@ -35,8 +35,8 @@ const categoryHighlight: React.FC = () => {
                 width: '100%',
             }}>
                 <Swiper
-                    slidesPerView={6}
-                    spaceBetween={30}
+                    slidesPerView={7}
+                    spaceBetween={20}
                     centeredSlides={true}
                     navigation={true}
                     modules={[Navigation]}

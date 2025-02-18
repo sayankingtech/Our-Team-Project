@@ -27,6 +27,7 @@ const offerBanner: React.FC = () => {
                 centeredSlides={false}
                 slidesPerGroupSkip={1}
                 grabCursor={true}
+                loop={true}
                 keyboard={{
                     enabled: true,
                 }}
