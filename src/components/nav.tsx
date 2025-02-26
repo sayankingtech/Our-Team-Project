@@ -5,7 +5,7 @@ import { FiSearch } from "react-icons/fi";
 import { CgProfile } from "react-icons/cg";
 import { HiOutlineShoppingCart } from "react-icons/hi";
 
-const nav: React.FC = () => {
+const Nav: React.FC = () => {
     return (
         <div className="grid grid-cols-12 h-22 w-[99%] justify-start items-center px-[px]">
             <div className='flex items-center col-span-4 place-content-around'>
@@ -28,4 +28,4 @@ const nav: React.FC = () => {
     )
 };
 
-export default nav;
+export default Nav;

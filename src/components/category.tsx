@@ -20,14 +20,17 @@ import image17 from "../assets/Images/Slice-17.avif"
 import image18 from "../assets/Images/Slice-18.avif"
 import image19 from "../assets/Images/Slice-19.avif"
 import image20 from "../assets/Images/Slice-20.avif"
+import { Link } from 'react-router-dom'
 
 
-const category: React.FC = () => {
+const Category: React.FC = () => {
   return (
     <>
       <div className='grid grid-cols-10'>
         <div>
-          <img src={image1} alt="" />
+          <Link to='/category'>
+            <img src={image1} alt="" />
+          </Link>
         </div>
         <div>
           <img src={image2} alt="" />
@@ -91,4 +94,4 @@ const category: React.FC = () => {
   )
 }
 
-export default category
+export default Category

@@ -19,7 +19,7 @@ import '../App.css'
 
 import { Keyboard, Autoplay } from 'swiper/modules';
 
-const offerBanner: React.FC = () => {
+const OfferBanner: React.FC = () => {
     return (
         <>
             <Swiper
@@ -98,4 +98,4 @@ const offerBanner: React.FC = () => {
     )
 }
 
-export default offerBanner
+export default OfferBanner

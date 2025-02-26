@@ -1,24 +1,24 @@
-import Navbar from "./components/nav"
-import Banner from "./components/banner"
-import OfferBanner from "./components/offerBanner"
-import Category from "./components/category"
-import CategoryHighlight from "./components/categoryHighlight"
-import Footer from "./components/footer"
-import CategoryPage from "./components/categoryPage"
 
-const App = () => {
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import CategoryPage from "./components/categoryPage";
+import NavCategory from "./components/NavCategory";
+import './App.css'
 
+
+
+function App() {
   return (
     <>
-      <Navbar></Navbar>
-      {/* <Banner></Banner> */}
-      {/* <OfferBanner></OfferBanner> */}
-      {/* <Category></Category> */}
-      {/* <CategoryHighlight></CategoryHighlight> */}
-      <CategoryPage></CategoryPage>
-      <Footer></Footer>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/category" element={<CategoryPage />} />
+          <Route path="/category" element={<NavCategory />} />
+        </Routes>
+      </Router>
     </>
   )
 }
 
-export default App
+export default App;

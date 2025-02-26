@@ -9,7 +9,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 
-const footer: React.FC = () => {
+const Footer: React.FC = () => {
     return (
         <>
             <div className='my-8'>
@@ -82,4 +82,4 @@ const footer: React.FC = () => {
     )
 }
 
-export default footer;
+export default Footer;

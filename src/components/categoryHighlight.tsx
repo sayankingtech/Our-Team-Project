@@ -24,7 +24,7 @@ import 'swiper/css/navigation';
 // @ts-ignore
 import { Navigation } from 'swiper/modules';
 
-const categoryHighlight: React.FC = () => {
+const CategoryHighlight: React.FC = () => {
     return (
         <>
             <div className='text-green-500 m-4 text-2xl font-semibold'>
@@ -201,4 +201,4 @@ const categoryHighlight: React.FC = () => {
     )
 }
 
-export default categoryHighlight
+export default CategoryHighlight;

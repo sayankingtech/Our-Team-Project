@@ -8,10 +8,10 @@ import { Autoplay, Pagination } from 'swiper/modules';
 
 // @ts-ignore
 import 'swiper/css';
-// @ts-ignore
+// @ts-ignore 
 import 'swiper/css/pagination';
 
-export default () => {
+const Banner: React.FC = () => {
     return (
         <Swiper
             // spaceBetween={50}
@@ -62,3 +62,5 @@ export default () => {
         </Swiper>
     );
 };
+
+export default Banner;
