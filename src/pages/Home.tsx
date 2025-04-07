@@ -1,16 +1,16 @@
 import React from 'react';
-import Banner from '../components/banner';
-import OfferBanner from '../components/offerBanner';
-import CategoryHighlight from '../components/categoryHighlight';
-import Category from '../components/category';
+import Banner from '../components/Banner';
+import OfferBanner from '../components/OfferBanner';
+import CategoryHighlight from '../components/CategoryHighlight';
+import Category from '../components/Category'
 import { WithHeaderFooter } from '../HOC/HeaderAndFooter';
 const Home: React.FC = () => {
     return (
         <>
             <Banner />
-            <OfferBanner />
-            <Category />
-            <CategoryHighlight />
+            {/* <OfferBanner /> */}
+            {/* <Category /> */}
+            {/* <CategoryHighlight /> */}
         </>
     );
 }

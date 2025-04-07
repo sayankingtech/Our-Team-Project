@@ -7,7 +7,7 @@ export const WithHeaderFooter = (WrappedComponent: any) => {
             <>
                 <Nav />
                 <WrappedComponent />
-                <Footer />
+                {/* <Footer /> */}
             </>
         )
     }

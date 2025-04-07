@@ -17,3 +17,21 @@
     height: 100px;
     border-radius: 10px;
 }
+
+Hide scrollbar for Chrome, Safari, and Edge
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for Firefox */
+  * {
+    scrollbar-width: none;
+  }
+  
+  /* Hide scrollbar for Internet Explorer */
+  html {
+    -ms-overflow-style: none;
+  }
+
+
+  
