@@ -36,10 +36,30 @@ const OfferBanner: React.FC = () => {
                     disableOnInteraction: false,
                 }}
                 breakpoints={{
-                    769: {
+                    320: {
+                        slidesPerView: 2,
+                        slidesPerGroup: 1,
+                      },
+                      480: {
+                        slidesPerView: 2,
+                        slidesPerGroup: 1,
+                      },
+                      640: {
+                        slidesPerView: 2,
+                        slidesPerGroup: 1,
+                      },
+                      768: {
+                        slidesPerView: 2,
+                        slidesPerGroup: 1,
+                      },
+                      1024: {
                         slidesPerView: 3,
                         slidesPerGroup: 1,
-                    },
+                      },
+                      1280: {
+                        slidesPerView: 3,
+                        slidesPerGroup: 1,
+                      }
                 }}
                 // navigation={true}
                 pagination={{
@@ -48,47 +68,47 @@ const OfferBanner: React.FC = () => {
                 modules={[Keyboard, Autoplay]}
                 className="mySwiper offerBanner"
             >
-                <SwiperSlide className='mb-[20px] p-2'>
-                    <div>
+                <SwiperSlide className='xs:mb-[5px] md:xs:mb-[5px] p-2'>
+                    <div className='mt-[1px]'>
                         <img src={image1} alt="" />
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className='mb-[20px] p-2'>
+                <SwiperSlide className='xs:mb-[5px] md:mb-[20px] p-2'>
                     <div>
                         <img src={image2} alt="" />
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className='mb-[20px] p-2'>
+                <SwiperSlide className='xs:mb-[5px] md:mb-[20px] p-2'>
                     <div>
                         <img src={image3} alt="" />
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className='mb-[20px] p-2'>
+                <SwiperSlide className='xs:mb-[5px] md:mb-[20px] p-2'>
                     <div>
                         <img src={image1} alt="" />
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className='mb-[20px] p-2'>
+                <SwiperSlide className='xs:mb-[5px] md:mb-[20px] p-2'>
                     <div>
                         <img src={image2} alt="" />
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className='mb-[20px] p-2'>
+                <SwiperSlide className='xs:mb-[5px] md:mb-[20px] p-2'>
                     <div>
                         <img src={image3} alt="" />
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className='mb-[20px] p-2'>
+                <SwiperSlide className='xs:mb-[5px] md:mb-[20px] p-2'>
                     <div>
                         <img src={image1} alt="" />
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className='mb-[20px] p-2'>
+                <SwiperSlide className='xs:mb-[5px] md:mb-[20px] p-2'>
                     <div>
                         <img src={image2} alt="" />
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className='mb-[20px] p-2'>
+                <SwiperSlide className='xs:mb-[5px] md:mb-[20px] p-2'>
                     <div>
                         <img src={image3} alt="" />
                     </div>

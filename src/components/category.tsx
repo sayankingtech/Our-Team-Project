@@ -26,7 +26,7 @@ import { Link } from 'react-router-dom'
 const Category: React.FC = () => {
   return (
     <>
-      <div className='grid grid-cols-10'>
+      <div className='lg:grid lg:grid-cols-10 md:grid md:grid-cols-5 xs:grid xs:grid-cols-5'>
         <div>
           <Link to='/category'>
             <img src={image1} alt="" />

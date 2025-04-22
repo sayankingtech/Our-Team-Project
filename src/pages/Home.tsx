@@ -8,9 +8,9 @@ const Home: React.FC = () => {
     return (
         <>
             <Banner />
-            {/* <OfferBanner /> */}
-            {/* <Category /> */}
-            {/* <CategoryHighlight /> */}
+            <OfferBanner />
+            <Category />
+            <CategoryHighlight />
         </>
     );
 }

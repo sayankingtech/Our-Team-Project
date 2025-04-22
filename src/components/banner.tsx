@@ -13,7 +13,7 @@ import 'swiper/css/pagination';
 
 const Banner: React.FC = () => {
     return (
-        <div className='my-1 mx-2 rounded-md overflow-hidden border'>
+        <div className='my-1 mx-3 rounded-md overflow-hidden'>
             <Swiper
                 // spaceBetween={50}
                 // slidesPerView={3}
@@ -21,7 +21,7 @@ const Banner: React.FC = () => {
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}
                 autoplay={{
-                    delay: 1000,
+                    delay: 2000,
                     disableOnInteraction: false,
                 }}
                 pagination={{
