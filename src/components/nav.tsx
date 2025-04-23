@@ -35,8 +35,8 @@ const Nav: React.FC = () => {
             </div>
             <div className="lg:hidden w-full xs:mt-1 md:mt-2 px-4">
                 <div className="flex items-center xs:p-2 md:p-3 w-full mx-auto xs:rounded-md md:rounded-lg bg-stone-200 border border-stone-400">
-                    <FiSearch className="xs:text-[10px] md:text-lg text-gray-600" />
-                    <input className="h-5 ms-2 w-full xs:text-[10px] border-none outline-none bg-transparent text-gray-800 placeholder-gray-500" type="text" placeholder="Search your Grocery" />
+                    <FiSearch className="xs:text-[14px] md:text-lg text-gray-600" />
+                    <input className="h-5 ms-2 w-full xs:text-[14px] border-none outline-none bg-transparent text-gray-800 placeholder-gray-500" type="text" placeholder="Search your Grocery" />
                 </div>
             </div>
         </>

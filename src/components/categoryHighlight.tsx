@@ -56,153 +56,153 @@ const CategoryHighlight: React.FC = () => {
                     className={`mySwiper`}
                 >
                     <SwiperSlide className='p-3'>
-                        <div className='bg-white rounded-lg overflow-hidden xs:h-[200px] xs:w-[90px] md:h-[250px] md:w-[130px] lg:h-[300px] lg:w-[175px]'>
+                        <div className='bg-white rounded-lg overflow-hidden xs:h-[240px] xs:w-[120px] md:h-[250px] md:w-[130px] lg:h-[300px] lg:w-[175px]'>
                             <div className='items-center'>
                                 <img src={image1} className='' alt="" />
                             </div>
                             <div className='p-2'>
-                                <div className='lg:text-sm xs:text-[10px] md:text-[13px] lg:font-medium mb-2 h-[40px]'>Amul Taaze Toned Fresh Milk</div>
-                                <div className='text-stone-600 lg:text-sm xs:text-[8px] md:text-[12px] mb-2'>500 ml</div>
+                                <div className='lg:text-sm xs:text-[12px] md:text-[13px] lg:font-medium xs:mb-9 lg:mb-2 xs:h-[17px] lg:h-[40px]'>Amul Taaze Toned Fresh Milk</div>
+                                <div className='text-stone-600 lg:text-sm xs:text-[11px] md:text-[12px] mb-2'>500 ml</div>
                                 <div className='flex place-content-between'>
-                                    <div className='lg:font-medium lg:text-sm xs:text-[12px] md:text-[16px]'>₹28</div>
+                                    <div className='lg:font-medium lg:text-sm xs:text-[14px] md:text-[16px]'>₹28</div>
                                     <div className='border border-green-800 rounded-md flex'>
-                                        <button className='justify-center items-center lg:px-[18px] xs:px-[10px] md:px-[16px] lg:py-[4px] xs:py-[2px] md:py-[3px] lg:text-sm xs:text-[10px] md:text-[12px] text-green-800'>ADD</button>
+                                        <button className='justify-center items-center lg:px-[18px] xs:px-[16px] md:px-[16px] lg:py-[4px] xs:py-[4px] md:py-[3px] lg:text-sm xs:text-[10px] md:text-[12px] text-green-800'>ADD</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='p-3'>
-                        <div className='bg-white rounded-lg overflow-hidden xs:h-[200px] xs:w-[90px] md:h-[250px] md:w-[130px] lg:h-[300px] lg:w-[175px]'>
+                        <div className='bg-white rounded-lg overflow-hidden xs:h-[240px] xs:w-[120px] md:h-[250px] md:w-[130px] lg:h-[300px] lg:w-[175px]'>
                             <div className='items-center'>
                                 <img src={image2} className='' alt="" />
                             </div>
                             <div className='p-2'>
-                                <div className='lg:text-sm xs:text-[10px] md:text-[13px] lg:font-medium mb-2 h-[40px]'>Kwality Special White Bread</div>
-                                <div className='text-stone-600 lg:text-sm xs:text-[8px] md:text-[12px] mb-2'>400 gm</div>
+                                <div className='lg:text-sm xs:text-[12px] md:text-[13px] lg:font-medium xs:mb-9 lg:mb-2 xs:h-[17px] lg:h-[40px]'>Amul Taaze Toned Fresh Milk</div>
+                                <div className='text-stone-600 lg:text-sm xs:text-[11px] md:text-[12px] mb-2'>500 ml</div>
                                 <div className='flex place-content-between'>
-                                    <div className='lg:font-medium lg:text-sm xs:text-[12px] md:text-[16px]'>₹40</div>
+                                    <div className='lg:font-medium lg:text-sm xs:text-[14px] md:text-[16px]'>₹28</div>
                                     <div className='border border-green-800 rounded-md flex'>
-                                        <button className='justify-center items-center lg:px-[18px] xs:px-[10px] md:px-[16px] lg:py-[4px] xs:py-[2px] md:py-[3px] lg:text-sm xs:text-[10px] md:text-[12px] text-green-800'>ADD</button>
+                                        <button className='justify-center items-center lg:px-[18px] xs:px-[16px] md:px-[16px] lg:py-[4px] xs:py-[4px] md:py-[3px] lg:text-sm xs:text-[10px] md:text-[12px] text-green-800'>ADD</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='p-3'>
-                        <div className='bg-white rounded-lg overflow-hidden xs:h-[200px] xs:w-[90px] md:h-[250px] md:w-[130px] lg:h-[300px] lg:w-[175px]'>
+                        <div className='bg-white rounded-lg overflow-hidden xs:h-[240px] xs:w-[120px] md:h-[250px] md:w-[130px] lg:h-[300px] lg:w-[175px]'>
                             <div className='items-center'>
                                 <img src={image3} className='' alt="" />
                             </div>
                             <div className='p-2'>
-                                <div className='lg:text-sm xs:text-[10px] md:text-[13px] lg:font-medium mb-2 h-[40px]'>Amul Salted Butter</div>
-                                <div className='text-stone-600 lg:text-sm xs:text-[8px] md:text-[12px] mb-2'>100 gm</div>
+                                <div className='lg:text-sm xs:text-[12px] md:text-[13px] lg:font-medium xs:mb-9 lg:mb-2 xs:h-[17px] lg:h-[40px]'>Amul Taaze Toned Fresh Milk</div>
+                                <div className='text-stone-600 lg:text-sm xs:text-[11px] md:text-[12px] mb-2'>500 ml</div>
                                 <div className='flex place-content-between'>
-                                    <div className='lg:font-medium lg:text-sm xs:text-[12px] md:text-[16px]'>₹60</div>
+                                    <div className='lg:font-medium lg:text-sm xs:text-[14px] md:text-[16px]'>₹28</div>
                                     <div className='border border-green-800 rounded-md flex'>
-                                        <button className='justify-center items-center lg:px-[18px] xs:px-[10px] md:px-[16px] lg:py-[4px] xs:py-[2px] md:py-[3px] lg:text-sm xs:text-[10px] md:text-[12px] text-green-800'>ADD</button>
+                                        <button className='justify-center items-center lg:px-[18px] xs:px-[16px] md:px-[16px] lg:py-[4px] xs:py-[4px] md:py-[3px] lg:text-sm xs:text-[10px] md:text-[12px] text-green-800'>ADD</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='p-3'>
-                        <div className='bg-white rounded-lg overflow-hidden xs:h-[200px] xs:w-[90px] md:h-[250px] md:w-[130px] lg:h-[300px] lg:w-[175px]'>
+                        <div className='bg-white rounded-lg overflow-hidden xs:h-[240px] xs:w-[120px] md:h-[250px] md:w-[130px] lg:h-[300px] lg:w-[175px]'>
                             <div className='items-center'>
                                 <img src={image4} className='' alt="" />
                             </div>
                             <div className='p-2'>
-                                <div className='lg:text-sm xs:text-[10px] md:text-[13px] lg:font-medium mb-2 h-[40px]'>Amul Musti Curd</div>
-                                <div className='text-stone-600 lg:text-sm xs:text-[8px] md:text-[12px] mb-2'>200 gm</div>
+                                <div className='lg:text-sm xs:text-[12px] md:text-[13px] lg:font-medium xs:mb-9 lg:mb-2 xs:h-[17px] lg:h-[40px]'>Amul Taaze Toned Fresh Milk</div>
+                                <div className='text-stone-600 lg:text-sm xs:text-[11px] md:text-[12px] mb-2'>500 ml</div>
                                 <div className='flex place-content-between'>
-                                    <div className='lg:font-medium lg:text-sm xs:text-[12px] md:text-[16px]'>₹23</div>
+                                    <div className='lg:font-medium lg:text-sm xs:text-[14px] md:text-[16px]'>₹28</div>
                                     <div className='border border-green-800 rounded-md flex'>
-                                        <button className='justify-center items-center lg:px-[18px] xs:px-[10px] md:px-[16px] lg:py-[4px] xs:py-[2px] md:py-[3px] lg:text-sm xs:text-[10px] md:text-[12px] text-green-800'>ADD</button>
+                                        <button className='justify-center items-center lg:px-[18px] xs:px-[16px] md:px-[16px] lg:py-[4px] xs:py-[4px] md:py-[3px] lg:text-sm xs:text-[10px] md:text-[12px] text-green-800'>ADD</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='p-3'>
-                        <div className='bg-white rounded-lg overflow-hidden xs:h-[200px] xs:w-[90px] md:h-[250px] md:w-[130px] lg:h-[300px] lg:w-[175px]'>
+                        <div className='bg-white rounded-lg overflow-hidden xs:h-[240px] xs:w-[120px] md:h-[250px] md:w-[130px] lg:h-[300px] lg:w-[175px]'>
                             <div className='items-center'>
                                 <img src={image5} className='' alt="" />
                             </div>
                             <div className='p-2'>
-                                <div className='lg:text-sm xs:text-[10px] md:text-[13px] lg:font-medium mb-2 h-[40px]'>Kwality Brown Bread</div>
-                                <div className='text-stone-600 lg:text-sm xs:text-[8px] md:text-[12px] mb-2'>400 gm</div>
+                                <div className='lg:text-sm xs:text-[12px] md:text-[13px] lg:font-medium xs:mb-9 lg:mb-2 xs:h-[17px] lg:h-[40px]'>Amul Taaze Toned Fresh Milk</div>
+                                <div className='text-stone-600 lg:text-sm xs:text-[11px] md:text-[12px] mb-2'>500 ml</div>
                                 <div className='flex place-content-between'>
-                                    <div className='lg:font-medium lg:text-sm xs:text-[12px] md:text-[16px]'>₹50</div>
+                                    <div className='lg:font-medium lg:text-sm xs:text-[14px] md:text-[16px]'>₹28</div>
                                     <div className='border border-green-800 rounded-md flex'>
-                                        <button className='justify-center items-center lg:px-[18px] xs:px-[10px] md:px-[16px] lg:py-[4px] xs:py-[2px] md:py-[3px] lg:text-sm xs:text-[10px] md:text-[12px] text-green-800'>ADD</button>
+                                        <button className='justify-center items-center lg:px-[18px] xs:px-[16px] md:px-[16px] lg:py-[4px] xs:py-[4px] md:py-[3px] lg:text-sm xs:text-[10px] md:text-[12px] text-green-800'>ADD</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='p-3'>
-                        <div className='bg-white rounded-lg overflow-hidden xs:h-[200px] xs:w-[90px] md:h-[250px] md:w-[130px] lg:h-[300px] lg:w-[175px]'>
+                        <div className='bg-white rounded-lg overflow-hidden xs:h-[240px] xs:w-[120px] md:h-[250px] md:w-[130px] lg:h-[300px] lg:w-[175px]'>
                             <div className='items-center'>
                                 <img src={image6} className='' alt="" />
                             </div>
                             <div className='p-2'>
-                                <div className='lg:text-sm xs:text-[10px] md:text-[13px] lg:font-medium mb-2 h-[40px]'>Gokul Full Cream Fresh Milk</div>
-                                <div className='text-stone-600 lg:text-sm xs:text-[8px] md:text-[12px] mb-2'>500 ml</div>
+                                <div className='lg:text-sm xs:text-[12px] md:text-[13px] lg:font-medium xs:mb-9 lg:mb-2 xs:h-[17px] lg:h-[40px]'>Amul Taaze Toned Fresh Milk</div>
+                                <div className='text-stone-600 lg:text-sm xs:text-[11px] md:text-[12px] mb-2'>500 ml</div>
                                 <div className='flex place-content-between'>
-                                    <div className='lg:font-medium lg:text-sm xs:text-[12px] md:text-[16px]'>₹36</div>
+                                    <div className='lg:font-medium lg:text-sm xs:text-[14px] md:text-[16px]'>₹28</div>
                                     <div className='border border-green-800 rounded-md flex'>
-                                        <button className='justify-center items-center lg:px-[18px] xs:px-[10px] md:px-[16px] lg:py-[4px] xs:py-[2px] md:py-[3px] lg:text-sm xs:text-[10px] md:text-[12px] text-green-800'>ADD</button>
+                                        <button className='justify-center items-center lg:px-[18px] xs:px-[16px] md:px-[16px] lg:py-[4px] xs:py-[4px] md:py-[3px] lg:text-sm xs:text-[10px] md:text-[12px] text-green-800'>ADD</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='p-3'>
-                        <div className='bg-white rounded-lg overflow-hidden xs:h-[200px] xs:w-[90px] md:h-[250px] md:w-[130px] lg:h-[300px] lg:w-[175px]'>
+                        <div className='bg-white rounded-lg overflow-hidden xs:h-[240px] xs:w-[120px] md:h-[250px] md:w-[130px] lg:h-[300px] lg:w-[175px]'>
                             <div className='items-center'>
                                 <img src={image7} className='' alt="" />
                             </div>
                             <div className='p-2'>
-                                <div className='lg:text-sm xs:text-[10px] md:text-[13px] lg:font-medium mb-2 h-[40px]'>Yojona Poultry Power White Eggs</div>
-                                <div className='text-stone-600 lg:text-sm xs:text-[8px] md:text-[12px] mb-2'>12 Pieces</div>
+                                <div className='lg:text-sm xs:text-[12px] md:text-[13px] lg:font-medium xs:mb-9 lg:mb-2 xs:h-[17px] lg:h-[40px]'>Amul Taaze Toned Fresh Milk</div>
+                                <div className='text-stone-600 lg:text-sm xs:text-[11px] md:text-[12px] mb-2'>500 ml</div>
                                 <div className='flex place-content-between'>
-                                    <div className='lg:font-medium lg:text-sm xs:text-[12px] md:text-[16px]'>₹106</div>
+                                    <div className='lg:font-medium lg:text-sm xs:text-[14px] md:text-[16px]'>₹28</div>
                                     <div className='border border-green-800 rounded-md flex'>
-                                        <button className='justify-center items-center lg:px-[18px] xs:px-[10px] md:px-[16px] lg:py-[4px] xs:py-[2px] md:py-[3px] lg:text-sm xs:text-[10px] md:text-[12px] text-green-800'>ADD</button>
+                                        <button className='justify-center items-center lg:px-[18px] xs:px-[16px] md:px-[16px] lg:py-[4px] xs:py-[4px] md:py-[3px] lg:text-sm xs:text-[10px] md:text-[12px] text-green-800'>ADD</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='p-3'>
-                        <div className='bg-white rounded-lg overflow-hidden xs:h-[200px] xs:w-[90px] md:h-[250px] md:w-[130px] lg:h-[300px] lg:w-[175px]'>
+                        <div className='bg-white rounded-lg overflow-hidden xs:h-[240px] xs:w-[120px] md:h-[250px] md:w-[130px] lg:h-[300px] lg:w-[175px]'>
                             <div className='items-center'>
                                 <img src={image1} className='' alt="" />
                             </div>
                             <div className='p-2'>
-                                <div className='lg:text-sm xs:text-[10px] md:text-[13px] lg:font-medium mb-2 h-[40px]'>Amul Taaze Toned Fresh Milk</div>
-                                <div className='text-stone-600 lg:text-sm xs:text-[8px] md:text-[12px] mb-2'>500 ml</div>
+                                <div className='lg:text-sm xs:text-[12px] md:text-[13px] lg:font-medium xs:mb-9 lg:mb-2 xs:h-[17px] lg:h-[40px]'>Amul Taaze Toned Fresh Milk</div>
+                                <div className='text-stone-600 lg:text-sm xs:text-[11px] md:text-[12px] mb-2'>500 ml</div>
                                 <div className='flex place-content-between'>
-                                    <div className='lg:font-medium lg:text-sm xs:text-[12px] md:text-[16px]'>₹28</div>
+                                    <div className='lg:font-medium lg:text-sm xs:text-[14px] md:text-[16px]'>₹28</div>
                                     <div className='border border-green-800 rounded-md flex'>
-                                        <button className='justify-center items-center lg:px-[18px] xs:px-[10px] md:px-[16px] lg:py-[4px] xs:py-[2px] md:py-[3px] lg:text-sm xs:text-[10px] md:text-[12px] text-green-800'>ADD</button>
+                                        <button className='justify-center items-center lg:px-[18px] xs:px-[16px] md:px-[16px] lg:py-[4px] xs:py-[4px] md:py-[3px] lg:text-sm xs:text-[10px] md:text-[12px] text-green-800'>ADD</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='p-3'>
-                        <div className='bg-white rounded-lg overflow-hidden xs:h-[200px] xs:w-[90px] md:h-[250px] md:w-[130px] lg:h-[300px] lg:w-[175px]'>
+                        <div className='bg-white rounded-lg overflow-hidden xs:h-[240px] xs:w-[120px] md:h-[250px] md:w-[130px] lg:h-[300px] lg:w-[175px]'>
                             <div className='items-center'>
-                                <img src={image2} className='' alt="" />
+                                <img src={image1} className='' alt="" />
                             </div>
                             <div className='p-2'>
-                                <div className='lg:text-sm xs:text-[10px] md:text-[13px] lg:font-medium mb-2 h-[40px]'>Kwality Special White Bread</div>
-                                <div className='text-stone-600 lg:text-sm xs:text-[8px] md:text-[12px] mb-2'>400 gm</div>
+                                <div className='lg:text-sm xs:text-[12px] md:text-[13px] lg:font-medium xs:mb-9 lg:mb-2 xs:h-[17px] lg:h-[40px]'>Amul Taaze Toned Fresh Milk</div>
+                                <div className='text-stone-600 lg:text-sm xs:text-[11px] md:text-[12px] mb-2'>500 ml</div>
                                 <div className='flex place-content-between'>
-                                    <div className='lg:font-medium lg:text-sm xs:text-[12px] md:text-[16px]'>₹40</div>
+                                    <div className='lg:font-medium lg:text-sm xs:text-[14px] md:text-[16px]'>₹28</div>
                                     <div className='border border-green-800 rounded-md flex'>
-                                        <button className='justify-center items-center lg:px-[18px] xs:px-[10px] md:px-[16px] lg:py-[4px] xs:py-[2px] md:py-[3px] lg:text-sm xs:text-[10px] md:text-[12px] text-green-800'>ADD</button>
+                                        <button className='justify-center items-center lg:px-[18px] xs:px-[16px] md:px-[16px] lg:py-[4px] xs:py-[4px] md:py-[3px] lg:text-sm xs:text-[10px] md:text-[12px] text-green-800'>ADD</button>
                                     </div>
                                 </div>
                             </div>
