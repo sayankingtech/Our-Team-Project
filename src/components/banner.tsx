@@ -13,10 +13,8 @@ import 'swiper/css/pagination';
 
 const Banner: React.FC = () => {
     return (
-        <div className='rounded-md xs:mx-2 xs:my-1 overflow-hidden'>
+        <div className='rounded-md xs:mx-2 lg:mx-1 xs:my-1 overflow-hidden'>
             <Swiper
-                // spaceBetween={50}
-                // slidesPerView={3}
                 loop={true}
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}
@@ -30,34 +28,34 @@ const Banner: React.FC = () => {
                 modules={[Autoplay, Pagination]}
                 className="mySwiper !m-0"
             >
-                <SwiperSlide className='xs:mb-[10px] lg:mb-[15px]'>
+                <SwiperSlide className='xs:mb-[15px] md:mb-[15px] lg:mb-[10px]'>
                     <div className=''>
-                        <img className='xs:h-30' src={image} alt="" />
+                        <img className='lg:h-[250px] w-[100%]' src={image} alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div>
-                        <img className='xs:h-30' src={image} alt="" />
+                        <img className='lg:h-[250px] w-[100%]' src={image} alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div>
-                        <img className='xs:h-30' src={image} alt="" />
+                        <img className='lg:h-[250px] w-[100%]' src={image} alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div>
-                        <img className='xs:h-30' src={image} alt="" />
+                        <img className='lg:h-[250px] w-[100%]' src={image} alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div>
-                        <img className='xs:h-30' src={image} alt="" />
+                        <img className='lg:h-[250px] w-[100%]' src={image} alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div>
-                        <img className='xs:h-30' src={image} alt="" />
+                        <img className='lg:h-[250px] w-[100%]' src={image} alt="" />
                     </div>
                 </SwiperSlide>
             </Swiper>

@@ -320,6 +320,21 @@ const CategoryPage: React.FC = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className='bg-white rounded-lg overflow-hidden '>
+                                <div className='items-center'>
+                                    <img src={image1} className='' alt="" />
+                                </div>
+                                <div className='p-2'>
+                                    <div className='text-sm font-medium mb-2 h-[40px]'>Amul Taaze Toned Fresh Milk</div>
+                                    <div className='bg-white text-sm mb-2'>500 ml</div>
+                                    <div className='flex place-content-between'>
+                                        <div className='font-medium'>₹28</div>
+                                        <div className='border border-green-800 rounded-md flex'>
+                                            <button className='justify-center items-center px-[18px] py-[4px] text-sm text-green-800'>ADD</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

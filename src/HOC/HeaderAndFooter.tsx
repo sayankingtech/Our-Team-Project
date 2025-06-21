@@ -1,5 +1,5 @@
-import Footer from "../components/footer"
-import Nav from "../components/nav"
+import Footer from "../components/Footer"
+import Nav from "../components/Nav"
 
 export const WithHeaderFooter = (WrappedComponent: any) => {
     return function () {
@@ -7,7 +7,7 @@ export const WithHeaderFooter = (WrappedComponent: any) => {
             <>
                 <Nav />
                 <WrappedComponent />
-                {/* <Footer /> */}
+                <Footer />
             </>
         )
     }
